@@ -17,7 +17,7 @@ header{
     background-color: #ad2efc;
     color: white;
     border: none;
-    padding: 15px 40px;
+    padding: 6px 16px;
     border-radius: 6px;
     font-size: 18px;
     font-weight: 500;
@@ -118,9 +118,40 @@ header{
 
   .iphone-image{
     width: 70%;
-    border: 2px solid blue;
     margin: 50px auto;
   }
   .iphone-image img{
     width: 100%;
+  }
+  .search-section{
+    width: 70%;
+    margin: 30px auto;
+  }
+  .search-section > h2{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .search-container{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(245, 241, 211);
+    display: flex;
+  }
+  .search-bar{
+    width: 70%;
+
+  }
+  .search-btn{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+  }
+  .search-bar > input[type="text"]{
+    padding: 15px;
+    border:none;
+    outline:none;
+    width:60%;
+    background-color: rgb(245, 241, 211);
   }
