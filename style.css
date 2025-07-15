@@ -28,6 +28,8 @@ header{
 
   .btn:hover {
     background-color: #a929cd;
+    transform: translateY(-1px);
+    transition: transform 0.3s ease;
   }
 
   .btn::before,
@@ -92,4 +94,33 @@ header{
     height: 100%;
   }
 
-  
+  #highlight{
+    width: 70%;
+    margin: 50px auto ;
+  }
+  #highlight > h2{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px #ce5656;
+    margin-bottom: 25px; 
+  }
+  #highlight > p{
+    color:rgb(105, 101, 101);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  #buy-now-btn{
+    display: flex;
+    justify-content: center;
+  }
+
+  .iphone-image{
+    width: 70%;
+    border: 2px solid blue;
+    margin: 50px auto;
+  }
+  .iphone-image img{
+    width: 100%;
+  }
