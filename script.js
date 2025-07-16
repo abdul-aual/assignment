@@ -5,14 +5,6 @@ const searchvalue = searchQuery.value;
 loadphone(searchvalue);
 };
 
-// function loadingAnimationToggle(isLoading){
-// const loaderAnimation = document.getElementById("loader-animation");
-// if(isLoading){
-//     loaderAnimation.classList.remove("hidden");
-// }else{
-//     loaderAnimation.classList.add("hidden");
-// }
-// }
 
 function loadingAnimationToggle(isLoading) {
     const loaderAnimation = document.getElementById("loader-animation");
@@ -26,9 +18,6 @@ function loadingAnimationToggle(isLoading) {
         cardContainer.classList.remove("hidden"); 
     }
 }
-
-
-
 
 
 const loadphone=async(searchText)=>{
